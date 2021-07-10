@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("mars.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h3,h5
+{
+	color: white !important;
+  font-size: 40px;
+}
+h4
+{
+  color: white !important;
+}
+h1
+{
+  color: gold !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Moving Rover On Mars</title>
+</head>
+<body onload="add();">
+<center>
+<h1>Moving Rover On Mars</h1>
+<button class="close" data-dismiss="modal">&times;</button>
+<h3 id="Ins">Instructions</h4>
+</div>
+<div class="modal-body">
+   <h5>1. When any of the arrow keys will be pressed so it will move the rover in that direction.</h5>
+   <h5>2. When the page will be reloaded so a new background image will be there.</h5>
+  </div>
+<canvas id="myCanvas" width="800" height="600">
+</canvas>
+<h4>
+	<b class="text-danger">NOTE : </b> IF YOU WANT TO MOVE THE ROVER ON DIFFERENT BACKGROUNS THEN YOU CAN RELOAD THE PAGE AND IF ROVER IS NOT VISIBLE PRESS ANY ARROW KEY.
+</h4>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
